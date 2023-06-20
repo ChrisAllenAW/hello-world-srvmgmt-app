@@ -18,6 +18,7 @@ const App = () => {
     return (
         <Fragment>
             <Text>Hello world!</Text>
+            <Text>Number of queues: {queues.length}</Text>
         </Fragment>
     );
 };

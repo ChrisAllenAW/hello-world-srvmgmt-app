@@ -1,0 +1,10 @@
+modules:
+  jiraServiceManagement:queuePage:
+    - key: hello-world-srvmgmt-app-hello-world-queue-page
+      function: main
+      title: hello-world-srvmgmt-app
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/03bd74ad-7307-47f8-87e8-d958929afeb1
